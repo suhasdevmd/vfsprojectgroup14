@@ -1,4 +1,4 @@
 struct block{
 int address;
-char *buffer;
+char buffer[100];
 };
