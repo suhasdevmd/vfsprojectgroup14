@@ -171,7 +171,7 @@ void main()
             printf("****** Search Operation *******\n");
             do
             {
-                printf("\n Enter Name To Be Searched");
+                printf("\n Enter element To Be Searched");
                 scanf("%s", temp1);
                 i = 0;
                 s = root;
