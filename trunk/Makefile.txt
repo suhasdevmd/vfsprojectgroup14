@@ -1,0 +1,16 @@
+../bin/test: ../bin/block.o ../bin/freelist.o ../bin/mainheader.o ../bin/file_descriptor.o
+	gcc ../bin/block.o ../bin/freelist.o ../bin/mainheader.o ../bin/file_descriptor.o -o ../bin/test
+
+../bin/block.o: ../src/block.c  ../include/block.h
+	gcc -c -o ../bin/block.o -I ../include/  ../src/block.c
+
+../bin/freelist.o: ../src/freelist.c ../include/freelist.h
+	gcc -c -o ../bin/freelist.o -I ../include/ ../src/freelist.c
+
+../bin/mainheader.o: ../src/mainheader.c ../include/mainheader.h
+	gcc -c -o ../bin/mainheader.o -I ../include/ ../src/mainheader.c
+
+../bin/file_desriptor.o: ../src/file_desriptor.c ../include/file_descriptor.h
+	gcc -c -o ../bin/file_desriptor.o -I ../include/ ../src/file_descriptor.c
+
+
