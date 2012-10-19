@@ -1,52 +1,57 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "file_descriptor.h"
+/*
+
+1 node stores pointer to file descriptor in n array tree
+input to bst is file path
+searching is on basis of path.
+output is pointer to file descriptor of n array tree containing that path.
 
 
+*/
 struct node
+//1 node stores 1 file descriptor
 {
-    char data[15];
+     struct file_descriptor fd_node;
     struct node *left, *right;
 };
 
 
 
-void insert(struct node *r, struct node *p)
+void insert(struct node *root, struct node *p)
 {
-    if ((r->right == NULL) && (strcmp(p->data, r->data) > 0))
-    r->right = p;
-    else if ((r->right != NULL) && (strcmp(p->data, r->data) > 0))
-    insert(r->right, p);
+    if ((root->right == NULL) && (strcmp(p->fd_node.file_path, root->fd_node.file_path) > 0))
+    root->right = p;
+    else if ((root->right != NULL) && (strcmp(p->fd_node.file_path, root->fd_node.file_path) > 0))
+    insert(root->right, p);
 
-    if ((r->left == NULL) && (strcmp(p->data, r->data) < 0))
-    r->left = p;
-    else if ((r->left != NULL) && (strcmp(p->data, r->data) < 0))
-    insert(r->left, p);
+    if ((root->left == NULL) && (strcmp(p->fd_node.file_path, root->fd_node.file_path) < 0))
+    root->left = p;
+    else if ((root->left != NULL) && (strcmp(p->fd_node.file_path, root->fd_node.file_path) < 0))
+    insert(root->left, p);
 }
 
 
-void tree(struct node *r, int c)
+void tree(struct node *root, int c)
 {
     int top, flag;
     struct node *w, *stack[20];
-    if (r != NULL)
+    if (root != NULL)
     {
         if (c != 4)
         {
             if (c == 1)
-            printf(" %s ", r->data);
-            tree(r->left, c);
-            if (c == 2)
-            printf(" %s ", r->data);
-            tree(r->right, c);
-            if (c == 3)
-            printf(" %s ", r->data);
+            printf(" %s ", root->fd_node.file_path);
+            tree(root->right, c);
+            
         }
     }
     if (c == 4)
     {
         top = 0;
-        w = r;
+        w = root;
         flag = 0;
         while ((top != - 1) && (w != NULL))
         {
@@ -56,7 +61,7 @@ void tree(struct node *r, int c)
                 top++;
                 w = w->left;
             }
-            printf(" %s ", w->data);
+            printf(" %s ", w->fd_node.file_path);
             if (w->right != NULL)
             {
                 w = w->right;
@@ -100,7 +105,7 @@ void main()
                 s->left = NULL;
                 s->right = NULL;
                 printf("\nEnter Data : ");
-                scanf("%s", &s->data);
+                scanf("%s", s->fd_node.file_path);
                 if (root == NULL)
                 root = s;
                 else
@@ -121,13 +126,13 @@ void main()
                 flag = 0;
                 do
                 {
-                    if (strcmp(s->data, temp1) > 0)
+                    if (strcmp(s->fd_node.file_path, temp1) > 0)
                     {
                         r = s;
                         s = s->left;
                         i = 2;
                     }
-                    if (strcmp(s->data, temp1) == 0)
+                    if (strcmp(s->fd_node.file_path, temp1) == 0)
                     {
                         flag = 1;
                         if (i == 0)
@@ -177,10 +182,10 @@ void main()
                 s = root;
                 while (s != NULL && i == 0)
                 {
-                    if (strcmp(s->data, temp1) < 0)s = s->right;
-                    if (strcmp(s->data, temp1) > 0)
+                    if (strcmp(s->fd_node.file_path, temp1) < 0)s = s->right;
+                    else if (strcmp(s->fd_node.file_path, temp1) > 0)
                     s = s->left;
-                    if (strcmp(s->data, temp1) == 0)
+                    else if (strcmp(s->fd_node.file_path, temp1) == 0)
                     i = 1;
                 }
                 if (i == 0)
@@ -196,8 +201,7 @@ void main()
             case 4:
             do
             {
-                printf(
-                "\n 1. Preorder\n 2. Inorder \n 3. Postorder \n 4. Non Recursion \n 5. Exit");
+                printf("\n 1.Inorder \n2.Exit");
                 printf("\nEnter Your Choice : ");
                 scanf("%d", &c);
                 if (root == NULL)
@@ -207,10 +211,9 @@ void main()
                 printf("\n Press Any Key To Continue......");
                 char z=getchar();
             }
-            while (c != 5);
+            while (c != 2);
             break;
         }
     }
-    while (choice != 5)
-    ;
+    while (choice != 5);
 }
