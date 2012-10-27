@@ -1,4 +1,6 @@
+#define blocksize 1024
+
 struct block{
-int address;
-char buffer[100];
+long int block_number;
+char buffer[1024];
 };

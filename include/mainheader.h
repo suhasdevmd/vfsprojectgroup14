@@ -5,3 +5,6 @@ int used_file_desc;
 struct file_descriptor file_desc;
 struct freelist free_list;
 };
+
+
+struct mainheader mheader;
