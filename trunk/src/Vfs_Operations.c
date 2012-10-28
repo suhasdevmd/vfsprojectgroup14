@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 #include "./../include/allheaders.h"
 
 
@@ -9,11 +10,11 @@ FILE *fp;
 char a[10]={""};
 int i;
 
-// declared mainheader in the .h file
+// declared mainheader structure in the .h file
 
 
 //creating the large binary file 
-char path[50]="/home/suhasdev/Desktop/VfsProject/";
+char path[100]="/home/suhasdev/Desktop/VfsProject/";
 strcat(path,filelabel);
 
 
@@ -69,7 +70,27 @@ free_list[i].isFree=0;
 }
 
 
-// create root using root.c ......
+
+// *** initializing the first file descriptor for checking
+
+strcpy(f_desc[0].file_name,"SuhasDev");
+strcpy(f_desc[0].file_path,"ROOT/suhas/dev");
+strcpy(f_desc[0].file_type,"directory");
+free_list[0].isFree=1;
+
+
+strcpy(f_desc[1].file_name,"Rupali");
+strcpy(f_desc[1].file_path,"ROOT/suhas/rupali");
+strcpy(f_desc[1].file_type,"directory");
+free_list[1].isFree=1;
+
+
+// *** end initializing
+
+
+
+
+naryRoot();// create root for narry
 
 
 fseek(fp,sizeof(struct mainheader),SEEK_SET);
@@ -117,20 +138,22 @@ fread(&mheader,sizeof(struct mainheader),1,fp);
 fread(&f_desc,(sizeof(struct file_descriptor))*(mheader.max_file_desc),1,fp);
 fread(&free_list,(sizeof(struct freelist))*(mheader.max_file_desc),1,fp);
 
+
+printf("Inside mount0.\n");
+
 for(i=0;i<mheader.max_file_desc;i++){
 if(free_list[i].isFree!=0){
 struct file_descriptor fd;
 fd=f_desc[i];
-
-//insertToNarry(fd);
+printf("Inside mount1.\n");
+insertToNarry(fd);
 //insertToHash(fd);
 //insertToBst(&fd);
-
 }
 }
 
 
-printf("Inside mount.");
+printf("Inside mount.\n");
 }
 
 
@@ -163,8 +186,7 @@ fclose(fp);
 }
 
 
-
-
+            
 
 
 
