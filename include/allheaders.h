@@ -7,3 +7,4 @@
 #include "File_Operations.h"
 #include "n-ary.h"
 #include "HashTable.h"
+#include "bst.h"
