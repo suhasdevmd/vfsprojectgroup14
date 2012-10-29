@@ -145,15 +145,15 @@ for(i=0;i<mheader.max_file_desc;i++){
 if(free_list[i].isFree!=0){
 struct file_descriptor fd;
 fd=f_desc[i];
-printf("Inside mount1.\n");
+//printf("Inside mount1.\n");
 insertToNarry(fd);
 //insertToHash(fd);
-//insertToBst(&fd);
+insertToBst(fd);
 }
 }
 
 
-printf("Inside mount.\n");
+printf("Completed mounting.\n");
 }
 
 

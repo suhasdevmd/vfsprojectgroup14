@@ -62,15 +62,15 @@ void insertToNarry(struct file_descriptor fd)//function to insert the nodes othe
 
 	printf("passed allocation Step\n");
 
-    while(tokens[count]!=NULL)
-     { 
+        while(tokens[count]!=NULL)
+        { 
            count++;
            tokens[count]=strtok(NULL,"/");//storing the tokens in the array of char pointers pointing to each token
            
-      }
+        }
     
-    if(tokens[i]==NULL)//when path contains only ROOT
-    {
+        if(tokens[i]==NULL)//when path contains only ROOT
+        {
       
     	   
        		if(start->firstChild==NULL)//checking and storing in the first child of the root if its null
@@ -79,18 +79,18 @@ void insertToNarry(struct file_descriptor fd)//function to insert the nodes othe
                  
                 
                }
-             else//if the first child of the root is not null,traverse through right siblings and store if a right sibling is null
-            {
-             start=start->firstChild;
-             while(status==0){
-             if(start->rightSibling==NULL){
+               else//if the first child of the root is not null,traverse through right siblings and store if a right sibling is null
+               {
+                start=start->firstChild;
+                while(status==0){
+               if(start->rightSibling==NULL){
               
-              start->rightSibling=temp;
-               status=1;
+                start->rightSibling=temp;
+                status=1;
                }
-              else{
+               else{
                 start=start->rightSibling;
-                }
+               }
                
               }
              
@@ -156,7 +156,7 @@ void insertToNarry(struct file_descriptor fd)//function to insert the nodes othe
 		}
 		strcat(s,tokens[i-1]);
          	strcpy(start->fileDesc.file_path,s);
-		insertToHash(start->fileDesc);//
+		insertToHash(start->fileDesc);// inserting to hash table
           	i++;
         	while(i<count){
            		start->firstChild=getnode();
@@ -172,7 +172,7 @@ void insertToNarry(struct file_descriptor fd)//function to insert the nodes othe
 			}
 			strcat(s,tokens[i-1]);
          		strcpy(start->fileDesc.file_path,s);
-			insertToHash(start->fileDesc);//
+			insertToHash(start->fileDesc);// inserting to hash table
           		i++;
         	} 
 	}
@@ -184,8 +184,8 @@ void insertToNarry(struct file_descriptor fd)//function to insert the nodes othe
      }
        }
     printf("insertion complete \n");
-displayNAry(root); 
-displayHash();  
+displayNAry(root); // to check the insertion in n-ary
+displayHash();   // to check insertion in hashtable
 }            
    
 
