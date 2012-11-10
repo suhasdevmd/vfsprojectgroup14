@@ -1,5 +1,5 @@
-../bin/vfsdriver: ../bin/n-ary.o ../bin/HashTable.o ../bin/File_Operations.o ../bin/Dir_Operations.o ../bin/Vfs_Operations.o ../bin/vfsdriver.o
-	gcc  ../bin/n-ary.o ../bin/HashTable.o ../bin/File_Operations.o ../bin/Dir_Operations.o ../bin/Vfs_Operations.o ../bin/vfsdriver.o \
+../bin/vfsdriver: ../bin/n-ary.o ../bin/bst.o ../bin/HashTable.o ../bin/File_Operations.o ../bin/Dir_Operations.o ../bin/Vfs_Operations.o ../bin/vfsdriver.o
+	gcc  ../bin/n-ary.o ../bin/bst.o ../bin/HashTable.o ../bin/File_Operations.o ../bin/Dir_Operations.o ../bin/Vfs_Operations.o ../bin/vfsdriver.o \
 	-o ../bin/vfsdriver
 ../bin/vfsdriver.o: ../test/vfsdriver.c ../include/allheaders.h
 	gcc  -c ../test/vfsdriver.c -I ../include/ -o ../bin/vfsdriver.o
@@ -13,3 +13,5 @@
 	gcc -c -o ../bin/HashTable.o -I ../include/ ../src/HashTable.c	
 ../bin/File_Operations.o:../src/File_Operations.c ../include/allheaders.h
 	gcc -c -o ../bin/File_Operations.o -I ../include/ ../src/File_Operations.c
+../bin/bst.o:../src/bst.c ../include/allheaders.h
+	gcc -c -o ../bin/bst.o -I ../include/ ../src/bst.c
