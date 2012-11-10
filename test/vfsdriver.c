@@ -123,94 +123,107 @@ void processcommand( char *command, char *P1, char *P2, char *P3 )
 void createvfs ( char *P1, int P2 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("createvfs_TO_BE_DONE\n");
+	printf("calling create_vfs **************\n");
 	create_vfs(P1,P2);
 }
 
 void mountvfs ( char *P1 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("mountvfs_TO_BE_DONE\n");
+	printf("calling mount_vfs.. **************\n");
 	mount_vfs(P1);
 }
 
 void unmountvfs ( char *P1 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("unmountvfs_TO_BE_DONE\n");
+	printf("calling unmountvfs **************\n");
 	unmount_vfs(P1);
 }
 
 void makedir ( char *P1, char *P2 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("makedir_TO_BE_DONE\n");
+	printf("calling makedir ***********************\n");
+	make_dir(P1,P2);
 }
 
 void deletedir ( char *P1 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("deletedir_TO_BE_DONE\n");
+	printf("calling deletedir ^^^^^^^^^^^^^^^^^^^^^^^^ ---------------> > > > \n");
+	delete_dir(P1);
 }
 
 void movedir ( char *P1, char *P2 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("movedir_TO_BE_DONE\n");
+	printf("calling movedir **************************\n");
+	move_dir(P1,P2);
 }
 
 void listdir ( char *P1, int P2, char *P3 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("listdir_TO_BE_DONE\n");
+	printf("calling listdir >>>>>>>>>>>>>>>>>>>>>>>>>\n");
+	list_dir(P1,P2,P3);
 }
 
 void addfile ( char *P1, char *P2, char *P3 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
 	printf("addfile_TO_BE_DONE\n");
+	add_file(P1,P2,P3);
 }
 
 void listfile ( char *P1, char *P2 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("listfile_TO_BE_DONE\n");
+	printf("\ncalling listfile *********************\n");
+	list_file(P1,P2);
 }
 
 void updatefile ( char *P1, char *P2 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("updatefile_TO_BE_DONE\n");
+	printf("calling updatefile *********************\n");
+	update_file(P1,P2);
 }
 
 void removefile ( char *P1 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("removefile_TO_BE_DONE\n");
+	printf("calling removefile ^^^^^^^^^^^^^^^^^^^^^^ --------------> > > \n");
+	remove_file(P1);
 }
 
 void movefile ( char *P1, char *P2 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("movefile_TO_BE_DONE\n");
+	printf("calling movefile *************************************\n");
+	move_file(P1,P2);
 }
 
 void copyfile ( char *P1, char *P2 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("copyfile_TO_BE_DONE\n");
+	printf("calling copyfile *************************\n");
+	copy_file(P1,P2);
 }
 
 void exportfile ( char *P1, char *P2 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("exportfile_TO_BE_DONE\n");
+	printf("calling exportfile ************************\n");
+	export_file(P1,P2);
 }
 
 void searchfile ( char *P1, char *P2 )
 {
 	/* Call the appropriate function with given arguments and display appropriate output on the screen */
-	printf("searchfile_TO_BE_DONE\n");
+	printf("\ncalling searchfile ***************************************************\n");
+	search_file(P1,P2);
+
 }
 
 
