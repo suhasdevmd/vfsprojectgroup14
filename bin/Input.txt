@@ -1,3 +1,19 @@
-createvfs demo 1000000
-mountvfs demo
-unmountvfs demo
+createvfs SuhasDemo 1
+mountvfs SuhasDemo
+makedir ROOT/suhas/rupali Rup
+makedir ROOT/suhas ss
+makedir ROOT/suhas sdev
+addfile ROOT/suhas shs.txt /home/suhasdev/Desktop/ss.txt
+addfile ROOT/rupali shs.txt /home/suhasdev/Desktop/ss.txt
+addfile ROOT/suhas/sdev suhas.txt /home/suhasdev/Desktop/ss1.txt
+listdir ROOT/suhas 1 /home/rupali/abc.txt
+updatefile ROOT/suhas/shs.txt /home/suhasdev/Desktop/ss_update.txt
+listfile ROOT/suhas/shs.txt /home/suhasdev/Desktop/ss_output.txt
+listfile ROOT/suhas/sdev/suhas.txt /home/suhasdev/Desktop/ss1_output.txt
+movefile ROOT/suhas/shs.txt ROOT/suhas/ss
+listdir ROOT 1 /home/sss.txt
+addfile ROOT/suhas/sdev dev.txt /home/suhasdev/Desktop/suhas.jpg
+unmountvfs SuhasDemo
+mountvfs SuhasDemo
+exportfile ROOT/suhas/sdev/dev.txt /home/suhasdev/Desktop/devmd.jpg
+unmountvfs SuhasDemo

@@ -1,0 +1,1662 @@
+calling create_vfs **************
+
+Reading the VFS name ---------> 
+
+SuhasDemo
+calling mount_vfs.. **************
+inside nary root
+getting node
+got narry node
+passed narry root step.
+Inside mount0.
+0 .. 
+1 .. 
+2 .. 
+3 .. 
+4 .. 
+5 .. 
+6 .. 
+7 .. 
+8 .. 
+9 .. 
+10 .. 
+11 .. 
+12 .. 
+13 .. 
+14 .. 
+15 .. 
+16 .. 
+17 .. 
+18 .. 
+19 .. 
+20 .. 
+21 .. 
+22 .. 
+23 .. 
+24 .. 
+ - --------------> 0..0
+ - --------------> 1..0
+ - --------------> 2..0
+ - --------------> 3..0
+ - --------------> 4..0
+ - --------------> 5..0
+ - --------------> 6..0
+ - --------------> 7..0
+ - --------------> 8..0
+ - --------------> 9..0
+ - --------------> 10..0
+ - --------------> 11..0
+ - --------------> 12..0
+ - --------------> 13..0
+ - --------------> 14..0
+ - --------------> 15..0
+ - --------------> 16..0
+ - --------------> 17..0
+ - --------------> 18..0
+ - --------------> 19..0
+ - --------------> 20..0
+ - --------------> 21..0
+ - --------------> 22..0
+ - --------------> 23..0
+ - --------------> 24..0
+Completed mounting.
+calling makedir ***********************
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+getting node
+got narry node
+displaying BSTgetting node
+got narry node
+displaying BSTinsertion complete 
+i value in make directory : 0
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+calling makedir ***********************
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+i value in make directory : 3
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+ss
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+ss ROOT/suhas/ss
+calling makedir ***********************
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+i value in make directory : 4
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+ss
+sdev
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+ss ROOT/suhas/ss
+addfile_TO_BE_DONE
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+i value in make directory : 5 
+ Data read from the data file : suhasdevmd
+IIIT Bangalore
+Bangalore
+karnataka
+India
+ 
+
+ The block number : 0 
+
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+ss
+sdev
+shs.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	shs.txt and path : ROOT/suhas	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+addfile_TO_BE_DONE
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+getting node
+got narry node
+displaying BSTinsertion complete 
+i value in make directory : 6 
+ Data read from the data file : suhasdevmd
+IIIT Bangalore
+Bangalore
+karnataka
+India
+ 
+
+ The block number : 1 
+
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+shs.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT	--->rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	shs.txt and path : ROOT/rupali	--->shs.txt and path : ROOT/suhas	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+addfile_TO_BE_DONE
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+i value in make directory : 8 
+ Data read from the data file : Mtech in IT
+ 
+
+ The block number : 2 
+
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+shs.txt
+suhas.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT	--->rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	suhas.txt and path : ROOT/suhas/sdev	--->shs.txt and path : ROOT/rupali	--->shs.txt and path : ROOT/suhas	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+suhas.txt ROOT/suhas/sdev/suhas.txt
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+calling listdir >>>>>>>>>>>>>>>>>>>>>>>>>
+BST SEARCH for existance of pathTOKENS: 	ROOT	suhas
+Count: 2
+
+Last token=suhas
+List: rupali
+ss
+sdev
+shs.txt
+suhas.txt
+Rup
+
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+shs.txt
+suhas.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT	--->rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	suhas.txt and path : ROOT/suhas/sdev	--->shs.txt and path : ROOT/rupali	--->shs.txt and path : ROOT/suhas	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+suhas.txt ROOT/suhas/sdev/suhas.txt
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+calling updatefile *********************
+
+Number of chars in the file : 32
+ Before updation dataread=Electronic-City
+Bangalore-560100*****************---------------------> suhasdevmd
+IIIT Bangalore
+Bangalore
+karnataka
+India
+Suhas data updated ***********------------length==84--->>>>>>>>>> suhasdevmd
+IIIT Bangalore
+Bangalore
+karnataka
+India
+Electronic-City
+Bangalore-560100
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+shs.txt
+suhas.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT	--->rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	suhas.txt and path : ROOT/suhas/sdev	--->shs.txt and path : ROOT/rupali	--->shs.txt and path : ROOT/suhas	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+suhas.txt ROOT/suhas/sdev/suhas.txt
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+
+calling listfile *********************
+.txt
+
+
+ The block number in list file : 0 
+
+
+
+Data to be written : suhasdevmd
+IIIT Bangalore
+Bangalore
+karnataka
+India
+Electronic-City
+Bangalore-560100 
+
+strlen==84
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+shs.txt
+suhas.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT	--->rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	suhas.txt and path : ROOT/suhas/sdev	--->shs.txt and path : ROOT/rupali	--->shs.txt and path : ROOT/suhas	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+suhas.txt ROOT/suhas/sdev/suhas.txt
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+
+calling listfile *********************
+.txt
+
+
+ The block number in list file : 2 
+
+
+
+Data to be written : Mtech in IT
+ 
+
+strlen==12
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+shs.txt
+suhas.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT	--->rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	suhas.txt and path : ROOT/suhas/sdev	--->shs.txt and path : ROOT/rupali	--->shs.txt and path : ROOT/suhas	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+suhas.txt ROOT/suhas/sdev/suhas.txt
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+calling movefile *************************************
+BST SEARCH for existance of pathBST SEARCH for existance of path
+
+
+
+
+
+
+
+ ######################## B4 deletion in file : 
+
+
+
+
+
+
+
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+shs.txt
+suhas.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT	--->rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	suhas.txt and path : ROOT/suhas/sdev	--->shs.txt and path : ROOT/rupali	--->shs.txt and path : ROOT/suhas	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+suhas.txt ROOT/suhas/sdev/suhas.txt
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+TOKENS: 	ROOT	suhas	shs.txt
+Count: 3
+
+ )))))))))))))  name :shs.txt   and path=ROOT/suhas 
+
+
+
+path inside dele hash -------> ROOT/suhas/shs.txt
+
+
+
+-------> > > Token : suhas , count : 1-------> > > Token : shs.txt , count : 2-------> > > Token : (null) , count : 3 
+
+
+
+ ------> tokenized path : ROOT/suhas
+
+
+ --------> file name : shs.txt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ***** B4 Deletion in hash  ***** 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+inside else of hash 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+inside while of hash 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+inside while of hash 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+inside if of while in hash 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+inside while of hash 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+inside while of hash 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+inside while of hash 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ***** Deletion in hash completed ***** 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ispresent is null
+
+
+
+
+
+
+
+
+ ######################## After deletion in file : 
+
+
+
+
+
+
+
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+suhas.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT	--->rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	suhas.txt and path : ROOT/suhas/sdev	--->shs.txt and path : ROOT/rupali	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+suhas.txt ROOT/suhas/sdev/suhas.txt
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+suhas.txt
+shs.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT	--->rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	shs.txt and path : ROOT/suhas/ss	--->suhas.txt and path : ROOT/suhas/sdev	--->shs.txt and path : ROOT/rupali	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+suhas.txt ROOT/suhas/sdev/suhas.txt
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+
+shs.txt ROOT/suhas/ss/shs.txt
+calling listdir >>>>>>>>>>>>>>>>>>>>>>>>>
+TOKENS: 	ROOT
+Count: 1
+
+Last token=ROOT
+LIST : suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+suhas.txt
+shs.txt
+Rup
+
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+suhas.txt
+shs.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT	--->rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	shs.txt and path : ROOT/suhas/ss	--->suhas.txt and path : ROOT/suhas/sdev	--->shs.txt and path : ROOT/rupali	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+suhas.txt ROOT/suhas/sdev/suhas.txt
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+
+shs.txt ROOT/suhas/ss/shs.txt
+addfile_TO_BE_DONE
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+i value in make directory : 9 
+ Data read from the data file : ÿØÿáExif 
+
+ The block number : 3 
+
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+suhas.txt
+dev.txt
+shs.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	dev.txt and path : ROOT/suhas/sdev	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	rupali and path : ROOT	--->rupali and path : ROOT/suhas	--->Rup and path : ROOT/suhas/rupali	
+18	shs.txt and path : ROOT/suhas/ss	--->suhas.txt and path : ROOT/suhas/sdev	--->shs.txt and path : ROOT/rupali	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+dev.txt ROOT/suhas/sdev/dev.txt
+
+suhas.txt ROOT/suhas/sdev/suhas.txt
+
+shs.txt ROOT/suhas/shs.txt
+
+ss ROOT/suhas/ss
+
+shs.txt ROOT/suhas/ss/shs.txt
+calling unmountvfs **************
+before unmounting
+0..Rup1..suhas2..rupali3..ss4..sdev5..shs.txt6..shs.txt7..rupali8..suhas.txt9..dev.txt10..11..12..13..14..15..16..17..18..19..20..21..22..23..24..after  clearing the file descriptor array
+0 .. 
+1 .. 
+2 .. 
+3 .. 
+4 .. 
+5 .. 
+6 .. 
+7 .. 
+8 .. 
+9 .. 
+10 .. 
+11 .. 
+12 .. 
+13 .. 
+14 .. 
+15 .. 
+16 .. 
+17 .. 
+18 .. 
+19 .. 
+20 .. 
+21 .. 
+22 .. 
+23 .. 
+24 .. 
+after unmounting the file descriptor array
+0 .. ROOT1 .. suhas2 .. rupali3 .. shs.txt4 .. rupali5 .. ss6 .. sdev7 .. suhas.txt8 .. dev.txt9 .. shs.txt10 .. Rup11 .. 12 .. 13 .. 14 .. 15 .. 16 .. 17 .. 18 .. 19 .. 20 .. 21 .. 22 .. 23 .. 24 .. calling mount_vfs.. **************
+inside nary root
+getting node
+got narry node
+passed narry root step.
+Inside mount0.
+0 .. ROOT
+1 .. suhas
+2 .. rupali
+3 .. shs.txt
+4 .. rupali
+5 .. ss
+6 .. sdev
+7 .. suhas.txt
+8 .. dev.txt
+9 .. shs.txt
+10 .. Rup
+11 .. 
+12 .. 
+13 .. 
+14 .. 
+15 .. 
+16 .. 
+17 .. 
+18 .. 
+19 .. 
+20 .. 
+21 .. 
+22 .. 
+23 .. 
+24 .. 
+ - --------------> 0..1
+ - --------------> 1..1
+ - --------------> 2..1
+ - --------------> 3..1
+ - --------------> 4..1
+ - --------------> 5..1
+ - --------------> 6..1
+ - --------------> 7..1
+ - --------------> 8..1
+ - --------------> 9..1
+ - --------------> 10..1
+ - --------------> 11..0
+ - --------------> 12..0
+ - --------------> 13..0
+ - --------------> 14..0
+ - --------------> 15..0
+ - --------------> 16..0
+ - --------------> 17..0
+ - --------------> 18..0
+ - --------------> 19..0
+ - --------------> 20..0
+ - --------------> 21..0
+ - --------------> 22..0
+ - --------------> 23..0
+ - --------------> 24..0
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+displaying BST
+NOW GOING INTO NARRAY
+insetion process started
+getting node
+got narry node
+passed allocation Step
+insertion complete 
+Completed mounting.
+calling exportfile ************************
+
+ Displaying the contents of Data structure . 
+
+ DISPLAYING NARY ********************************* 
+ROOT
+suhas
+rupali
+shs.txt
+rupali
+ss
+sdev
+suhas.txt
+dev.txt
+shs.txt
+Rup
+
+ ****************** HashTable : ********************************
+0	
+1	
+2	
+3	dev.txt and path : ROOT/suhas/sdev	
+4	
+5	
+6	
+7	
+8	
+9	
+10	
+11	
+12	
+13	
+14	
+15	
+16	
+17	Rup and path : ROOT/suhas/rupali	--->rupali and path : ROOT/suhas	--->rupali and path : ROOT	
+18	shs.txt and path : ROOT/suhas/ss	--->suhas.txt and path : ROOT/suhas/sdev	--->sdev and path : ROOT/suhas	--->ss and path : ROOT/suhas	--->shs.txt and path : ROOT/rupali	--->suhas and path : ROOT	
+19	
+20	
+21	
+22	
+23	
+24	
+25	
+26	
+
+
+************************  BST  ***************************
+
+ROOT 
+
+rupali ROOT/rupali
+
+shs.txt ROOT/rupali/shs.txt
+
+suhas ROOT/suhas
+
+rupali ROOT/suhas/rupali
+
+Rup ROOT/suhas/rupali/Rup
+
+sdev ROOT/suhas/sdev
+
+dev.txt ROOT/suhas/sdev/dev.txt
+
+suhas.txt ROOT/suhas/sdev/suhas.txt
+
+ss ROOT/suhas/ss
+
+shs.txt ROOT/suhas/ss/shs.txt
+calling unmountvfs **************
+before unmounting
+0..ROOT1..suhas2..rupali3..shs.txt4..rupali5..ss6..sdev7..suhas.txt8..dev.txt9..shs.txt10..Rup11..12..13..14..15..16..17..18..19..20..21..22..23..24..after  clearing the file descriptor array
+0 .. 
+1 .. 
+2 .. 
+3 .. 
+4 .. 
+5 .. 
+6 .. 
+7 .. 
+8 .. 
+9 .. 
+10 .. 
+11 .. 
+12 .. 
+13 .. 
+14 .. 
+15 .. 
+16 .. 
+17 .. 
+18 .. 
+19 .. 
+20 .. 
+21 .. 
+22 .. 
+23 .. 
+24 .. 
+after unmounting the file descriptor array
+0 .. ROOT1 .. suhas2 .. rupali3 .. shs.txt4 .. rupali5 .. ss6 .. sdev7 .. suhas.txt8 .. dev.txt9 .. shs.txt10 .. Rup11 .. 12 .. 13 .. 14 .. 15 .. 16 .. 17 .. 18 .. 19 .. 20 .. 21 .. 22 .. 23 .. 24 .. 
